@@ -135,7 +135,7 @@ local plr = game:GetService("Players").LocalPlayer
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 
 -- Thông báo chào mừng
-Notification.new("<Color=Yellow>TDT Hub<Color=/>"):Display()
+Notification.new("<Color=Yellow>NgDuc Hub<Color=/>"):Display()
 task.wait(1)
 
 -- LocalScript (đặt trong StarterPlayerScripts)
@@ -145,7 +145,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 -- Tùy chỉnh
-local TEXT = "TDT son"
+local TEXT = "NgDuc son"
 local TEXT_SIZE = 14                 -- kích thước chữ (không quá to)
 local GUI_OFFSET = Vector3.new(0, 1.8, 0) -- khoảng cách so với đầu
 local RAINBOW_SPEED = 1.0           -- tốc độ đổi màu (1 = bình thường, tăng để nhanh hơn)
