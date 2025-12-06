@@ -145,7 +145,7 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 
 -- Tùy chỉnh
-local TEXT = "NgDuc son"
+local TEXT = "NgDuc Tu Tiên Tôi"
 local TEXT_SIZE = 14                 -- kích thước chữ (không quá to)
 local GUI_OFFSET = Vector3.new(0, 1.8, 0) -- khoảng cách so với đầu
 local RAINBOW_SPEED = 1.0           -- tốc độ đổi màu (1 = bình thường, tăng để nhanh hơn)
